@@ -11,7 +11,7 @@ main();
 
 function showUserPosts(id) {
     localStorage.setItem("id", id);
-    Window.location.href = `${window.location.origin}/user.html`
+    window.location.href = `${window.location.origin}/user.html`
 }
 
 function userHTML(user) {
